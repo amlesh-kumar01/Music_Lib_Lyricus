@@ -14,8 +14,7 @@
       </div>
     <!-- Hamburger Menu -->
     
-    <label class="hamburger">
-      <input type="checkbox" class="toggle-menu" name="hamburger" id="hamburger">
+    <label class="hamburger" for="hamburger">
       <span class="bar"></span>
       <span class="bar"></span>
       <span class="bar"></span>
@@ -26,16 +25,17 @@
         <li><a href="#featured-playlists">Featured Playlists</a></li>
         <li><a href="#recommended-albums">Recommended Albums</a></li>
         <li><a href="#user-reviews">Reviews</a></li>
-        
       </ul>
     </nav>
+    <div>
+      <input type="checkbox" class="toggle-menu" name="hamburger" id="hamburger">
     <ul class="nav-links-ham">
       <li><a href="#intro">Introduction</a></li>
       <li><a href="#featured-playlists">Featured Playlists</a></li>
       <li><a href="#recommended-albums">Recommended Albums</a></li>
       <li><a href="#user-reviews">Reviews</a></li>
-      
     </ul>
+    </div>
 
     
 
@@ -58,8 +58,8 @@
       <div class="playlist-cards">
         <div class="playlist-card">
           <img src="assets/PlaylistCards/playlist1.jpeg" alt="Playlist 1" />
-          <h3>Chill Vibes</h3>
-          <p>A collection of relaxing tracks to unwind.</p>
+          <h3>Bollywood & Chill</h3>
+          <p>Embark on a Musical Journey with Bollywood Hits</p>
           <span class="song-count">25 songs</span>
           <label class="follow-button">
             <input type="checkbox" />
@@ -70,9 +70,9 @@
 
         <div class="playlist-card">
           <img src="assets/PlaylistCards/playlist2.jpeg" alt="Playlist 1" />
-          <h3>Chill Vibes</h3>
-          <p>A collection of relaxing tracks to unwind.</p>
-          <span class="song-count">25 songs</span>
+          <h3>Eclectic Grooves</h3>
+          <p>Explore a mix of handpicked gems from various genres – from indie to classic hits. Let the rhythm take you on a musical adventure!</p>
+          <span class="song-count">69 songs</span>
           <label class="follow-button">
             <input type="checkbox" />
             <span>Follow</span>
@@ -81,9 +81,9 @@
 
         <div class="playlist-card">
           <img src="assets/PlaylistCards/playlist3.jpg" alt="Playlist 1" />
-          <h3>Chill Vibes</h3>
-          <p>A collection of relaxing tracks to unwind.</p>
-          <span class="song-count">25 songs</span>
+          <h3>Top 50 Hits</h3>
+          <p>Desi Beats: India’s Ultimate Chart-Toppers</p>
+          <span class="song-count">50 songs</span>
           <label class="follow-button">
             <input type="checkbox" />
             <span>Follow</span>
@@ -92,9 +92,9 @@
 
         <div class="playlist-card">
           <img src="assets/PlaylistCards/playlist4.jpeg" alt="Playlist 1" />
-          <h3>Chill Vibes</h3>
-          <p>A collection of relaxing tracks to unwind.</p>
-          <span class="song-count">25 songs</span>
+          <h3>Mega Hit Mix</h3>
+          <p>A powerhouse of mega hits that will keep you grooving!</p>
+          <span class="song-count">47 songs</span>
           <label class="follow-button">
             <input type="checkbox" />
             <span>Follow</span>
@@ -102,9 +102,9 @@
         </div>
         <div class="playlist-card">
           <img src="assets/PlaylistCards/playlist5.jpeg" alt="Playlist 1" />
-          <h3>Chill Vibes</h3>
-          <p>A collection of relaxing tracks to unwind.</p>
-          <span class="song-count">25 songs</span>
+          <h3>Pop Mix</h3>
+          <p>Pop Fusion: Groovy Beats and Catchy Melodies</p>
+          <span class="song-count">106 songs</span>
           <label class="follow-button">
             <input type="checkbox" />
             <span>Follow</span>
@@ -297,8 +297,12 @@
       
       <div class="footer">
         <div class="footer-left">
-          <h4>About</h4>
-          
+          <div class="about"><h4>About</h4>
+            <p>This music library is developed as a project for learning HTML and CSS.</p></div>
+            <div class="formals"> <a href=""target="_blank">Privacy Policy</a>
+             <p>All Rights Reserved</p>
+            <p>Contact No: 1600111677</p>
+            </div>
         </div>
         <div class="footer-right">
           <p>Social Media</p>
@@ -311,21 +315,21 @@
               <img src="assets/social_icons/twitter.svg" alt="Twitter" />
             </a>
             <a
-              href="https://instagram.com/YourMusicLibrary"
+              href="https://www.instagram.com/amlesh_kumar01/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="assets/social_icons/icons8-instagram-100.svg" alt="Instagram" />
             </a>
             <a
-              href="https://facebook.com/YourMusicLibrary"
+              href="https://www.facebook.com/profile.php?id=100050785193980"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img src="assets/social_icons/icons8-facebook-48.svg" alt="Facebook" />
             </a>
             <a
-              href="https://github.com/YourMusicLibrary"
+              href="https://github.com/amlesh-kumar01/Music_Lib_Lyricus"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -338,15 +342,5 @@
 
       <button class="back-to-top"><a href="#intro">Back to Top</a></button>
     </footer>
-    <!-- <script>
-      const backToTopButton = document.querySelector(".back-to-top");
-
-      backToTopButton.addEventListener("click", () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      });
-    </script> -->
   </body>
 </html>
